@@ -1,0 +1,77 @@
+# -----------------------------
+# Arquivos de ambiente / dependências
+# -----------------------------
+venv/
+.env
+*.env
+.env.*
+*/.env
+*/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.joblib
+*.db
+
+# -----------------------------
+# Jupyter Notebook
+# -----------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# -----------------------------
+# Dados sensíveis / grandes
+# -----------------------------
+# (Você manterá apenas dados públicos ou sintéticos dentro de /data)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.json
+*.zip
+*.gz
+
+# EXCEÇÃO: permitir CSVs dentro das pastas de data públicas
+!01_credit_risk_classification/data/*.csv
+!02_people_analytics_churn/data/*.csv
+!03_customer_segmentation_clustering/data/*.csv
+!04_nlp_project/data/*.csv
+!05_generative_ai_project/data/*.csv
+!06_financial_fraud_eda/data/*.csv
+
+# -----------------------------
+# Power BI
+# -----------------------------
+*.pbix
+*.pbit
+*.dswx
+
+# -----------------------------
+# Logs e temporários
+# -----------------------------
+*.log
+*.tmp
+*.temp
+
+# -----------------------------
+# Configurações do VSCode / IDEs
+# -----------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# -----------------------------
+# Arquivos de sistema
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------
+# OneDrive / SharePoint
+# -----------------------------
+*.lnk
+~$*
