@@ -1,6 +1,7 @@
 # -----------------------------
 # Arquivos de ambiente / dependências
 # -----------------------------
+_old/
 venv/
 .env
 *.env
