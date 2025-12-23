@@ -1,4 +1,4 @@
-# Classificador de Documentos de P&D (IA Generativa)
+# Sumário Executivo Automático (Crédito - IA Generativa)
 
 ## 1. Objetivo
 Descreve brevemente o propósito do projeto e o problema de negócio que ele aborda.
