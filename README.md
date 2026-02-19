@@ -1,57 +1,65 @@
-# Portfólio de People Analytics & Ciência de Dados
+# Portfólio de Análise de Dados Orientado à Tomada de Decisão
 
-Este repositório reúne projetos de Ciência de Dados aplicados a **People Analytics**, com foco em **análise, modelagem e suporte à tomada de decisão gerencial e executiva**.
+Este repositório reúne projetos estratégicos desenvolvidos com foco em **análise de dados aplicada a problemas reais de negócio**, priorizando:
 
-Os projetos abordam temas como retenção de talentos, engajamento organizacional, segmentação de colaboradores e comunicação executiva orientada por dados.
+- Impacto mensurável  
+- Priorização baseada em risco e retorno  
+- Comunicação clara para áreas gerenciais e executivas  
+- Estrutura reprodutível (raw → processed → análise → insight)  
 
----
-
-## Escopo dos Projetos
-
-- Análise Exploratória de Dados (EDA)
-- Modelagem estatística e de Machine Learning
-- Análise de dados textuais (NLP)
-- Aplicações de IA Generativa para apoio à análise e síntese de informação
-- Visualização e comunicação de resultados para stakeholders
+O objetivo é demonstrar atuação como **Analista de Dados orientado à decisão**, com profundidade técnica e visão estratégica.
 
 ---
 
-## Tecnologias Utilizadas
+## Domínios de Atuação
+
+### 📊 People Analytics
+
+#### 1. Sistema de Priorização de Turnover  
+Sistema analítico para estimar risco de desligamento, identificar principais fatores associados e apoiar a priorização de ações preventivas de retenção com base em risco e impacto financeiro.
+
+#### 2. Análise de Engajamento e Clima Organizacional (NLP)  
+Análise de dados textuais de pesquisas e feedbacks internos, com identificação de padrões de engajamento, temas críticos e insights para gestão de pessoas.
+
+---
+
+### 📈 Marketing Analytics
+
+#### 3. Análise de Funil e Conversão  
+Avaliação de performance ao longo do funil de aquisição, identificação de gargalos e estimativa de impacto potencial de melhorias nas taxas de conversão.
+
+#### 4. Avaliação de Performance de Campanhas  
+Análise de métricas de campanhas (CAC, ROI, conversão), com foco em alocação eficiente de orçamento e priorização de canais.
+
+---
+
+### 💼 Sales & Market Intelligence
+
+#### 5. Análise de Pipeline Comercial  
+Monitoramento e segmentação de oportunidades comerciais, identificação de gargalos e suporte à priorização de esforços da equipe de vendas.
+
+#### 6. Estudo de Demanda e Market Share  
+Análise exploratória e comparativa de mercado para identificação de oportunidades estratégicas, variações de demanda e posicionamento competitivo.
+
+---
+
+## Tecnologias e Ferramentas
 
 - **Linguagens:** Python, SQL  
-- **Análise e Modelagem:** Pandas, NumPy, Scikit-learn, PySpark  
+- **Análise de Dados:** Pandas, NumPy  
+- **Modelagem e Machine Learning:** Scikit-learn, PySpark  
 - **Visualização:** Power BI, Matplotlib, Seaborn  
-- **NLP & IA Generativa:** TF-IDF, modelos de linguagem (LLMs)  
-- **Outros:** Git
+- **NLP:** TF-IDF e técnicas de processamento de texto  
+- **Versionamento:** Git  
 
 ---
 
-## Projetos do Portfólio
+## Estrutura dos Projetos
 
-### 1. Sistema de Retenção de Talentos (People Analytics)
-Sistema analítico para estimar risco de desligamento de colaboradores, analisar os principais fatores associados ao turnover e avaliar o impacto financeiro, apoiando decisões de retenção e gestão de pessoas.
+Cada projeto está organizado de forma padronizada, contendo:
 
----
-
-### 2. Análise de Engajamento e Clima Organizacional (NLP)
-Análise de dados textuais provenientes de pesquisas de clima, feedbacks ou comentários abertos, com foco em engajamento, percepção organizacional e identificação de temas críticos.
-
----
-
-### 3. Segmentação Estratégica de Colaboradores e Lideranças
-Aplicação de técnicas de segmentação para identificar perfis distintos de colaboradores ou lideranças, apoiando decisões relacionadas a desenvolvimento, retenção e gestão de equipes.
-
----
-
-### 4. Sumário Executivo Automático de People Analytics
-Geração automática de relatórios executivos a partir de análises de People Analytics, sintetizando indicadores, principais drivers, métricas e recomendações para apoio a comitês e liderança.
-
----
-
-## Organização do Repositório
-
-Cada projeto possui uma pasta dedicada, contendo, conforme aplicável:
-- Análise exploratória dos dados
-- Modelagem e avaliação
-- Dados públicos ou sintéticos
-- Documentação específica do projeto
+- Análise exploratória orientada a hipóteses de negócio  
+- Tratamento e preparação de dados  
+- Modelagem ou análise estatística (quando aplicável)  
+- Avaliação com métricas técnicas e de negócio  
+- Síntese executiva com insights acionáveis  
