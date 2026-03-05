@@ -1,8 +1,5 @@
 # =============================
-# Ambientes e dependências
-# =============================
-venv/
-.venv/
+# Ambientes e dependvenv/# Ambientes e dependências
 _old/
 .env
 *.env
@@ -21,12 +18,17 @@ __pycache__/
 */.ipynb_checkpoints/
 
 # =============================
-# Dados (NÃO versionar)
+# Dados (NÃO versionar - regra geral)
 # =============================
-**/data/
 
-# Arquivos de dados comuns
+# Ignora todos os .csv por padrão (para evitar subir dados reais)
 *.csv
+
+# MAS não ignore os dados simulados do projeto:
+!data/raw/*.csv
+!data/processed/*.csv
+
+# Outros formatos de dados que não queremos versionar
 *.xlsx
 *.xls
 *.parquet
@@ -43,7 +45,7 @@ __pycache__/
 *.db
 
 # =============================
-# Power BI
+# Power BI (não versionar)
 # =============================
 *.pbix
 *.pbit
@@ -71,7 +73,4 @@ Thumbs.db
 desktop.ini
 
 # =============================
-# OneDrive / SharePoint
-# =============================
-*.lnk
-~$*
+venv/
