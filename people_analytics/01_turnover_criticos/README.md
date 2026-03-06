@@ -3,7 +3,7 @@
 
 ## 🏦 Problema de Negócio
 
-Um banco nacional fictício (≈2.500 colaboradores) enfrenta sinais claros de deterioração organizacional em áreas críticas — Comercial e Tecnologia. 
+Um banco nacional fictício (aproximadamente 2.500 colaboradores) enfrenta sinais claros de deterioração organizacional em áreas críticas — Comercial e Tecnologia. 
 
 Foram identificados:
 
