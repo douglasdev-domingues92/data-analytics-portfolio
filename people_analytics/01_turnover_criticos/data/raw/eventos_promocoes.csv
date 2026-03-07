@@ -1,4 +1,4 @@
-employee_id,data,nivel_anterior,nivel_novo
+colaborador_id,data_promocao,nivel_anterior,nivel_novo
 1,2024-05-01,Sênior,Líder
 8,2024-11-01,Pleno,Sênior
 13,2024-07-01,Pleno,Sênior

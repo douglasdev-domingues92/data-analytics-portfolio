@@ -1,4 +1,4 @@
-employee_id,data_desligamento,tipo,custo_reposicao
+colaborador_id,data_desligamento,tipo_desligamento,custo_reposicao
 42,2024-02-01,Involuntário,35928.607687009244
 59,2024-12-01,Voluntário,10358.210415119418
 128,2024-04-01,Voluntário,19796.181817396093

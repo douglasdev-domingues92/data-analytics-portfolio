@@ -1,4 +1,4 @@
-employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
+colaborador_id,area,nivel_cargo,genero,raca,data_admissao,idade,salario_base_inicial
 1,Tecnologia,Sênior,F,Parda,2018-09-25,37,11366.628603565694
 2,Backoffice,Sênior,M,Parda,2018-04-30,27,10410.136523857047
 3,Produtos Digitais,Pleno,M,Branca,2016-10-04,34,9098.936869724937
@@ -83,7 +83,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 82,Crédito,Sênior,F,Branca,2020-07-25,44,11100.35263166906
 83,Tecnologia,Pleno,M,Branca,2021-07-21,32,8421.323493827753
 84,Comercial,Pleno,F,Branca,2019-12-20,23,6606.426201569978
-85,Tecnologia,Pleno,F,Parda,2015-04-28,19,7871.358252860759
+85,Tecnologia,Pleno,F,Parda,2015-04-28,21,7871.358252860759
 86,Tecnologia,Pleno,M,Parda,2021-02-12,30,6975.3085097075655
 87,Produtos Digitais,Júnior,M,Branca,2022-02-27,32,3584.705401466459
 88,Crédito,Pleno,F,Parda,2019-03-02,41,5898.241762947834
@@ -229,7 +229,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 228,Tecnologia,Júnior,M,Branca,2022-11-24,43,3267.9811746266732
 229,Backoffice,Júnior,F,Amarela,2016-12-08,31,2700.419052686197
 230,Crédito,Pleno,M,Parda,2017-08-13,27,6346.853946785581
-231,Produtos Digitais,Pleno,M,Parda,2020-02-14,19,7528.782053520447
+231,Produtos Digitais,Pleno,M,Parda,2020-02-14,21,7528.782053520447
 232,Risco & Compliance,Pleno,F,Branca,2018-04-21,28,6048.114597279245
 233,Risco & Compliance,Júnior,M,Branca,2023-08-07,33,2998.8667983666064
 234,Tecnologia,Líder,F,Parda,2019-09-26,43,16672.259813639765
@@ -264,7 +264,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 263,Comercial,Pleno,M,Branca,2021-09-08,32,5831.389451484105
 264,Risco & Compliance,Pleno,F,Parda,2024-06-01,33,5672.171267029228
 265,Backoffice,Júnior,Outro,Parda,2023-03-24,36,2739.6395284682503
-266,Produtos Digitais,Líder,M,Parda,2015-06-03,17,18261.291892740268
+266,Produtos Digitais,Líder,M,Parda,2015-06-03,21,18261.291892740268
 267,Crédito,Pleno,F,Branca,2019-09-16,34,6387.092074065529
 268,Crédito,Júnior,F,Branca,2018-12-23,27,3840.8143162220676
 269,Tecnologia,Pleno,M,Branca,2018-02-06,35,7356.110746399255
@@ -301,7 +301,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 300,Comercial,Júnior,F,Branca,2023-06-14,32,2554.6912666292324
 301,Comercial,Sênior,M,Branca,2024-02-09,35,11300.849557691101
 302,Risco & Compliance,Sênior,F,Branca,2023-03-15,33,11037.999949074643
-303,Risco & Compliance,Sênior,M,Não declarado,2016-04-12,19,11662.415205198775
+303,Risco & Compliance,Sênior,M,Não declarado,2016-04-12,21,11662.415205198775
 304,Crédito,Líder,M,Branca,2024-12-21,37,19090.357129960164
 305,Produtos Digitais,Pleno,F,Branca,2017-08-01,43,8020.061972323676
 306,Backoffice,Líder,M,Branca,2022-03-28,34,15682.014163634905
@@ -354,7 +354,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 353,Crédito,Júnior,F,Parda,2016-01-26,22,3769.834191246031
 354,Comercial,Sênior,M,Branca,2023-03-17,28,10016.00596293143
 355,Comercial,Júnior,M,Parda,2019-05-09,39,3182.4291295355083
-356,Crédito,Pleno,F,Branca,2015-09-22,17,7408.705253067452
+356,Crédito,Pleno,F,Branca,2015-09-22,21,7408.705253067452
 357,Comercial,Júnior,F,Branca,2022-11-09,41,2778.1222271186043
 358,Risco & Compliance,Júnior,Outro,Branca,2018-10-07,37,3671.94237921314
 359,Backoffice,Júnior,M,Branca,2016-01-02,41,2815.648178427348
@@ -433,7 +433,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 432,Produtos Digitais,Pleno,F,Parda,2015-10-30,32,6927.039298260557
 433,Risco & Compliance,Júnior,M,Parda,2021-05-31,34,3575.750017293372
 434,Comercial,Pleno,F,Branca,2019-09-19,32,5690.962092376434
-435,Comercial,Pleno,M,Branca,2024-01-27,19,5949.613467811192
+435,Comercial,Pleno,M,Branca,2024-01-27,21,5949.613467811192
 436,Crédito,Júnior,M,Branca,2018-08-18,43,3759.1318396143984
 437,Comercial,Sênior,F,Parda,2017-11-14,40,8639.346451857286
 438,Produtos Digitais,Pleno,M,Parda,2020-01-02,36,7270.255931487614
@@ -527,7 +527,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 526,Tecnologia,Pleno,F,Branca,2022-08-21,31,6501.471505199
 527,Tecnologia,Sênior,M,Parda,2020-10-27,44,12994.01066308779
 528,Comercial,Pleno,F,Branca,2015-09-17,37,6476.369300862643
-529,Comercial,Pleno,F,Parda,2023-12-01,19,6501.325730734603
+529,Comercial,Pleno,F,Parda,2023-12-01,21,6501.325730734603
 530,Backoffice,Pleno,F,Parda,2015-04-23,41,6161.890925313787
 531,Produtos Digitais,Júnior,M,Branca,2022-06-24,40,3717.4333921618063
 532,Backoffice,Pleno,F,Parda,2022-08-01,31,6512.931396704935
@@ -680,7 +680,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 679,Backoffice,Sênior,M,Branca,2016-11-17,25,8303.117773660606
 680,Backoffice,Pleno,F,Branca,2017-11-07,35,6136.903407471506
 681,Produtos Digitais,Júnior,F,Branca,2019-10-04,34,3454.0500359379985
-682,Comercial,Júnior,M,Branca,2024-07-15,17,3413.1075992478536
+682,Comercial,Júnior,M,Branca,2024-07-15,21,3413.1075992478536
 683,Comercial,Júnior,M,Branca,2017-06-21,32,3013.7298277013188
 684,Crédito,Júnior,F,Não declarado,2022-04-24,36,3949.922005780863
 685,Backoffice,Pleno,F,Branca,2019-05-23,36,4944.175848928331
@@ -720,7 +720,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 719,Comercial,Pleno,F,Branca,2015-02-10,27,5552.473213122745
 720,Produtos Digitais,Pleno,F,Parda,2017-06-03,50,7636.6640613468535
 721,Backoffice,Pleno,F,Preta,2021-10-13,31,5899.7936243010545
-722,Comercial,Júnior,F,Branca,2017-04-23,20,2705.327214644345
+722,Comercial,Júnior,F,Branca,2017-04-23,21,2705.327214644345
 723,Comercial,Júnior,M,Branca,2020-02-01,28,2921.7489131580583
 724,Produtos Digitais,Júnior,F,Preta,2023-11-15,26,4028.707664967667
 725,Risco & Compliance,Júnior,F,Branca,2021-12-07,38,3259.6450174504503
@@ -865,14 +865,14 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 864,Tecnologia,Júnior,F,Branca,2020-01-23,29,3931.7738331458154
 865,Tecnologia,Sênior,M,Parda,2015-11-10,31,13001.411537836666
 866,Risco & Compliance,Pleno,F,Parda,2024-09-08,25,6367.629487029832
-867,Comercial,Júnior,M,Branca,2015-05-22,20,3101.9577544498165
+867,Comercial,Júnior,M,Branca,2015-05-22,21,3101.9577544498165
 868,Comercial,Júnior,F,Parda,2022-07-13,27,3282.3734660107925
 869,Backoffice,Júnior,M,Parda,2020-03-31,24,2444.973480348654
 870,Backoffice,Pleno,M,Branca,2018-09-07,36,5615.561991960772
 871,Tecnologia,Júnior,F,Branca,2015-08-29,30,4040.87463202514
 872,Comercial,Pleno,F,Branca,2021-03-20,30,6083.060046834078
 873,Crédito,Júnior,M,Branca,2020-11-06,28,3606.777751006587
-874,Tecnologia,Pleno,M,Parda,2017-10-22,14,7537.521883362018
+874,Tecnologia,Pleno,M,Parda,2017-10-22,21,7537.521883362018
 875,Comercial,Sênior,F,Parda,2024-02-05,43,11475.623634046931
 876,Comercial,Sênior,F,Branca,2018-01-15,27,8663.864609467115
 877,Crédito,Sênior,M,Branca,2019-06-30,31,11469.104635114702
@@ -889,7 +889,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 888,Comercial,Pleno,M,Branca,2017-11-04,33,6229.402097670496
 889,Comercial,Júnior,M,Parda,2023-03-10,35,2550.227209041506
 890,Comercial,Pleno,F,Branca,2015-10-19,40,6473.713894097529
-891,Produtos Digitais,Júnior,M,Parda,2023-07-20,20,4349.920467374784
+891,Produtos Digitais,Júnior,M,Parda,2023-07-20,21,4349.920467374784
 892,Backoffice,Sênior,M,Branca,2015-12-02,27,9527.70971086447
 893,Produtos Digitais,Sênior,M,Amarela,2023-05-04,30,15131.821841593868
 894,Tecnologia,Júnior,F,Parda,2018-08-09,33,4209.501981401701
@@ -903,7 +903,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 902,Comercial,Júnior,M,Amarela,2020-11-18,43,3220.0395509543396
 903,Comercial,Líder,F,Parda,2022-11-23,43,13225.392819916087
 904,Risco & Compliance,Júnior,F,Parda,2021-07-23,39,3776.949677685986
-905,Tecnologia,Pleno,F,Branca,2021-01-30,15,8019.66384336251
+905,Tecnologia,Pleno,F,Branca,2021-01-30,21,8019.66384336251
 906,Backoffice,Sênior,M,Branca,2019-02-12,43,10498.988012374177
 907,Produtos Digitais,Sênior,F,Branca,2019-09-26,38,11670.010696151463
 908,Tecnologia,Líder,M,Branca,2019-02-22,46,18777.905169049693
@@ -1075,7 +1075,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 1074,Comercial,Líder,F,Branca,2015-06-16,27,15109.689689949106
 1075,Backoffice,Sênior,F,Preta,2017-12-31,38,10476.04556649107
 1076,Tecnologia,Pleno,F,Branca,2020-04-22,31,6625.0826118009945
-1077,Tecnologia,Júnior,F,Parda,2019-01-30,19,4081.4949235807067
+1077,Tecnologia,Júnior,F,Parda,2019-01-30,21,4081.4949235807067
 1078,Crédito,Pleno,M,Branca,2017-09-26,37,6243.754903668779
 1079,Comercial,Pleno,M,Branca,2016-04-24,27,6554.613758973578
 1080,Backoffice,Pleno,F,Branca,2023-03-09,27,5891.521603222244
@@ -1097,7 +1097,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 1096,Comercial,Pleno,M,Parda,2018-02-21,35,5533.232836602013
 1097,Comercial,Júnior,F,Parda,2021-12-30,36,3233.7254980199205
 1098,Comercial,Pleno,M,Branca,2023-04-04,34,6115.814102171671
-1099,Produtos Digitais,Pleno,F,Parda,2022-04-23,16,8965.0213407602
+1099,Produtos Digitais,Pleno,F,Parda,2022-04-23,21,8965.0213407602
 1100,Tecnologia,Pleno,M,Parda,2024-11-20,26,8387.75550647411
 1101,Comercial,Júnior,F,Branca,2017-09-21,29,3133.8601342008583
 1102,Backoffice,Pleno,M,Parda,2023-09-29,35,6085.419030931795
@@ -1117,7 +1117,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 1116,Risco & Compliance,Júnior,M,Amarela,2023-10-05,30,3411.9765199960343
 1117,Comercial,Pleno,M,Amarela,2024-04-10,40,6680.789358493565
 1118,Backoffice,Sênior,Outro,Branca,2020-04-14,36,10798.092322911216
-1119,Comercial,Sênior,F,Branca,2022-07-14,19,10250.83664842315
+1119,Comercial,Sênior,F,Branca,2022-07-14,21,10250.83664842315
 1120,Comercial,Júnior,M,Branca,2019-05-23,35,2588.331858573282
 1121,Backoffice,Pleno,F,Não declarado,2022-06-16,31,6502.393555326756
 1122,Backoffice,Júnior,F,Branca,2017-01-17,37,3026.0120620662988
@@ -1225,7 +1225,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 1224,Backoffice,Júnior,F,Branca,2024-02-23,33,2988.364042674778
 1225,Tecnologia,Pleno,F,Preta,2019-02-18,35,6529.756479819733
 1226,Crédito,Sênior,M,Parda,2019-03-27,33,11024.092683095094
-1227,Tecnologia,Júnior,F,Branca,2022-01-08,16,4239.805043324384
+1227,Tecnologia,Júnior,F,Branca,2022-01-08,21,4239.805043324384
 1228,Comercial,Júnior,Outro,Branca,2024-06-03,43,3326.330317207227
 1229,Backoffice,Júnior,M,Branca,2017-09-01,36,2666.639211878451
 1230,Tecnologia,Pleno,F,Branca,2019-05-26,35,6728.382489223061
@@ -1290,7 +1290,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 1289,Comercial,Júnior,M,Branca,2019-05-27,33,3097.091679486199
 1290,Comercial,Líder,F,Parda,2022-01-24,31,16197.793797614602
 1291,Tecnologia,Júnior,F,Preta,2020-11-14,26,4019.9226579042092
-1292,Comercial,Júnior,F,Branca,2018-03-06,19,3145.6394381901964
+1292,Comercial,Júnior,F,Branca,2018-03-06,21,3145.6394381901964
 1293,Risco & Compliance,Pleno,M,Branca,2020-07-14,27,7248.008370646439
 1294,Crédito,Pleno,F,Parda,2022-04-21,40,7283.7917096934625
 1295,Produtos Digitais,Júnior,M,Branca,2015-06-04,31,4091.3128014832114
@@ -1317,7 +1317,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 1316,Crédito,Pleno,M,Parda,2022-10-16,39,6447.312673874436
 1317,Risco & Compliance,Pleno,M,Parda,2021-01-06,31,7372.1299228518
 1318,Produtos Digitais,Sênior,M,Branca,2019-07-19,35,15391.840771931726
-1319,Comercial,Sênior,M,Parda,2018-07-24,13,8711.31995791078
+1319,Comercial,Sênior,M,Parda,2018-07-24,21,8711.31995791078
 1320,Comercial,Pleno,F,Branca,2024-06-18,31,5948.33069135997
 1321,Comercial,Pleno,M,Branca,2021-01-09,38,6086.997597353633
 1322,Comercial,Pleno,M,Não declarado,2020-10-14,31,5267.240990393466
@@ -1362,7 +1362,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 1361,Backoffice,Sênior,F,Parda,2022-09-08,33,9040.81337580872
 1362,Comercial,Pleno,F,Parda,2019-04-15,24,6626.645320745721
 1363,Crédito,Pleno,F,Preta,2022-07-31,39,6865.859644375766
-1364,Crédito,Júnior,F,Parda,2018-09-19,17,3794.3684062200464
+1364,Crédito,Júnior,F,Parda,2018-09-19,21,3794.3684062200464
 1365,Produtos Digitais,Júnior,F,Branca,2017-06-09,50,3570.3404460823167
 1366,Comercial,Pleno,M,Parda,2022-04-14,43,5353.844619480604
 1367,Crédito,Pleno,F,Branca,2019-03-12,32,7888.0530315838605
@@ -1393,7 +1393,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 1392,Comercial,Pleno,F,Parda,2016-09-11,38,5159.253456175116
 1393,Comercial,Pleno,M,Não declarado,2021-07-09,32,6562.4120370970695
 1394,Risco & Compliance,Pleno,M,Parda,2021-02-12,37,6722.391483069851
-1395,Tecnologia,Pleno,Outro,Branca,2022-11-15,17,7603.705481916883
+1395,Tecnologia,Pleno,Outro,Branca,2022-11-15,21,7603.705481916883
 1396,Produtos Digitais,Sênior,F,Branca,2017-07-15,34,15354.143390151099
 1397,Tecnologia,Júnior,M,Branca,2022-08-19,31,4028.6001891713695
 1398,Comercial,Sênior,F,Parda,2021-11-16,27,11050.356604168333
@@ -1440,7 +1440,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 1439,Comercial,Júnior,F,Branca,2023-11-23,35,3221.359156113599
 1440,Crédito,Pleno,M,Branca,2022-11-08,34,7170.522479806495
 1441,Backoffice,Sênior,F,Parda,2017-12-17,29,9291.854223444376
-1442,Comercial,Sênior,F,Branca,2020-06-12,20,11206.351925926832
+1442,Comercial,Sênior,F,Branca,2020-06-12,21,11206.351925926832
 1443,Crédito,Júnior,M,Preta,2017-03-28,28,3606.2524719242306
 1444,Tecnologia,Pleno,F,Preta,2019-06-09,30,7271.299474423295
 1445,Backoffice,Júnior,M,Branca,2019-11-03,32,2493.8662473805734
@@ -1530,7 +1530,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 1529,Produtos Digitais,Pleno,F,Não declarado,2020-07-20,25,8261.84217362339
 1530,Risco & Compliance,Pleno,M,Branca,2021-11-23,36,7043.456390071565
 1531,Tecnologia,Pleno,M,Branca,2024-09-15,37,7316.661869968539
-1532,Risco & Compliance,Júnior,M,Parda,2015-11-02,19,3182.676380309805
+1532,Risco & Compliance,Júnior,M,Parda,2015-11-02,21,3182.676380309805
 1533,Crédito,Júnior,M,Branca,2024-01-03,28,3034.146200165573
 1534,Comercial,Líder,F,Parda,2016-04-05,29,15107.350231692702
 1535,Tecnologia,Júnior,F,Branca,2018-12-05,34,3766.3149354642283
@@ -1563,13 +1563,13 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 1562,Comercial,Júnior,F,Preta,2017-07-14,31,3235.0903636489265
 1563,Produtos Digitais,Sênior,F,Parda,2023-09-10,27,14596.629387252959
 1564,Comercial,Júnior,M,Branca,2019-04-26,31,3147.099954275069
-1565,Produtos Digitais,Sênior,F,Parda,2023-01-29,14,12349.035304995565
+1565,Produtos Digitais,Sênior,F,Parda,2023-01-29,21,12349.035304995565
 1566,Tecnologia,Júnior,F,Parda,2017-08-19,30,3642.265225319414
 1567,Crédito,Júnior,M,Branca,2015-01-15,33,3735.794521655902
 1568,Comercial,Líder,M,Parda,2019-12-14,37,17040.42142530366
 1569,Crédito,Pleno,F,Branca,2016-01-01,32,6028.420217211807
 1570,Tecnologia,Sênior,F,Branca,2022-07-16,36,12633.26254173948
-1571,Risco & Compliance,Júnior,M,Preta,2017-10-04,20,3114.3970486110634
+1571,Risco & Compliance,Júnior,M,Preta,2017-10-04,21,3114.3970486110634
 1572,Comercial,Pleno,F,Parda,2019-06-08,33,5505.709009770294
 1573,Produtos Digitais,Pleno,F,Branca,2015-11-14,23,8114.1199609529085
 1574,Backoffice,Pleno,M,Parda,2017-11-12,26,5881.412772351678
@@ -1623,7 +1623,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 1622,Comercial,Pleno,F,Parda,2017-09-27,31,6689.716747105782
 1623,Risco & Compliance,Pleno,M,Parda,2015-08-26,30,6720.876496026074
 1624,Backoffice,Sênior,M,Preta,2015-07-02,33,9811.148406232025
-1625,Comercial,Sênior,M,Branca,2016-02-26,19,11125.176892506828
+1625,Comercial,Sênior,M,Branca,2016-02-26,21,11125.176892506828
 1626,Crédito,Pleno,F,Amarela,2015-09-18,27,7557.396163848124
 1627,Comercial,Pleno,M,Branca,2022-08-08,30,6182.81172387942
 1628,Risco & Compliance,Sênior,M,Parda,2019-11-08,41,11835.519422698973
@@ -1658,7 +1658,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 1657,Risco & Compliance,Pleno,F,Amarela,2024-06-30,39,7166.613474469756
 1658,Tecnologia,Sênior,F,Parda,2024-12-24,32,11636.43876530952
 1659,Tecnologia,Líder,F,Parda,2018-09-19,41,20060.80376782068
-1660,Tecnologia,Pleno,F,Branca,2017-12-26,16,7748.081524178019
+1660,Tecnologia,Pleno,F,Branca,2017-12-26,21,7748.081524178019
 1661,Risco & Compliance,Pleno,M,Preta,2023-07-30,26,5946.592667561043
 1662,Risco & Compliance,Júnior,F,Parda,2024-12-23,28,3701.082536095744
 1663,Backoffice,Pleno,F,Parda,2021-04-17,29,5188.100697856804
@@ -1780,7 +1780,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 1779,Comercial,Júnior,Outro,Branca,2023-07-29,36,3434.240848614655
 1780,Produtos Digitais,Pleno,F,Branca,2021-10-10,33,7265.791565144154
 1781,Comercial,Júnior,F,Branca,2017-12-16,43,3036.7308637182678
-1782,Backoffice,Pleno,M,Amarela,2020-08-11,16,5014.069675141744
+1782,Backoffice,Pleno,M,Amarela,2020-08-11,21,5014.069675141744
 1783,Tecnologia,Júnior,M,Parda,2022-02-22,37,3545.808352421863
 1784,Crédito,Júnior,F,Branca,2022-04-11,38,3478.489331003209
 1785,Crédito,Pleno,M,Preta,2021-08-29,40,7824.527714148247
@@ -1824,7 +1824,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 1823,Risco & Compliance,Pleno,Outro,Parda,2019-05-12,41,6136.231840498523
 1824,Produtos Digitais,Pleno,M,Branca,2022-11-23,37,8136.420486988634
 1825,Crédito,Sênior,F,Branca,2023-03-05,40,11430.743627065158
-1826,Risco & Compliance,Líder,M,Amarela,2017-11-26,17,17018.313479742592
+1826,Risco & Compliance,Líder,M,Amarela,2017-11-26,21,17018.313479742592
 1827,Comercial,Júnior,F,Parda,2018-05-24,32,2981.501605863305
 1828,Backoffice,Líder,F,Branca,2024-05-09,41,16106.956030462798
 1829,Produtos Digitais,Júnior,M,Branca,2016-08-24,30,3734.7668505807233
@@ -1884,7 +1884,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 1883,Crédito,Pleno,F,Parda,2016-09-11,39,7772.06287217782
 1884,Produtos Digitais,Pleno,F,Branca,2015-01-01,37,7496.580951380554
 1885,Comercial,Sênior,M,Parda,2022-03-06,36,9565.706551991507
-1886,Tecnologia,Pleno,M,Preta,2016-02-10,15,6721.412236734959
+1886,Tecnologia,Pleno,M,Preta,2016-02-10,21,6721.412236734959
 1887,Comercial,Líder,F,Preta,2017-06-09,35,15858.25302403036
 1888,Comercial,Júnior,F,Branca,2017-12-23,24,3414.169587008933
 1889,Produtos Digitais,Júnior,F,Parda,2020-08-07,37,4221.256947115534
@@ -1985,14 +1985,14 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 1984,Tecnologia,Pleno,M,Parda,2016-01-27,33,7971.1562318684955
 1985,Comercial,Júnior,M,Preta,2018-11-30,40,2605.2659248270097
 1986,Comercial,Pleno,F,Parda,2020-11-20,26,6754.082537598893
-1987,Produtos Digitais,Júnior,F,Branca,2017-10-03,20,3541.006023118968
+1987,Produtos Digitais,Júnior,F,Branca,2017-10-03,21,3541.006023118968
 1988,Tecnologia,Pleno,M,Branca,2016-10-01,32,8432.020596774364
 1989,Tecnologia,Sênior,F,Branca,2022-09-28,36,12465.527185447634
 1990,Produtos Digitais,Pleno,F,Branca,2024-06-17,34,7973.861404094086
 1991,Produtos Digitais,Júnior,M,Parda,2016-01-02,41,4625.068101592958
 1992,Comercial,Pleno,F,Branca,2016-07-21,36,6882.691519856794
 1993,Risco & Compliance,Pleno,F,Branca,2024-08-05,30,6897.352689402805
-1994,Comercial,Sênior,F,Branca,2015-05-18,20,8881.357875571146
+1994,Comercial,Sênior,F,Branca,2015-05-18,21,8881.357875571146
 1995,Produtos Digitais,Pleno,M,Parda,2024-10-08,32,8114.993308142142
 1996,Crédito,Pleno,M,Parda,2015-01-17,40,6960.367618978221
 1997,Backoffice,Pleno,M,Parda,2023-09-24,31,5724.703392111379
@@ -2004,7 +2004,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 2003,Backoffice,Júnior,M,Parda,2017-06-03,32,2910.05472329116
 2004,Comercial,Júnior,M,Preta,2022-09-24,27,3061.525064192197
 2005,Comercial,Pleno,F,Branca,2020-04-13,33,6328.410756342721
-2006,Produtos Digitais,Júnior,F,Parda,2024-04-10,20,3546.258195944124
+2006,Produtos Digitais,Júnior,F,Parda,2024-04-10,21,3546.258195944124
 2007,Tecnologia,Pleno,M,Branca,2019-04-14,36,7784.632441348716
 2008,Produtos Digitais,Júnior,F,Parda,2023-09-10,36,3783.6136201568047
 2009,Comercial,Pleno,F,Branca,2019-06-27,44,6012.60538289311
@@ -2039,7 +2039,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 2038,Comercial,Pleno,F,Parda,2023-07-04,40,5281.448612763404
 2039,Comercial,Júnior,M,Branca,2020-07-26,37,2676.471351762077
 2040,Comercial,Júnior,M,Parda,2017-01-24,26,3211.0431605499452
-2041,Backoffice,Júnior,M,Branca,2021-03-25,20,3162.0481183130605
+2041,Backoffice,Júnior,M,Branca,2021-03-25,21,3162.0481183130605
 2042,Risco & Compliance,Pleno,F,Branca,2018-07-29,28,6671.972263241122
 2043,Risco & Compliance,Júnior,M,Branca,2023-06-10,32,3091.1592356163214
 2044,Comercial,Júnior,F,Parda,2019-07-13,49,2866.1839907278577
@@ -2088,9 +2088,9 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 2087,Comercial,Pleno,M,Branca,2021-04-09,29,5315.60108379041
 2088,Crédito,Júnior,M,Branca,2020-08-28,26,3101.538694054309
 2089,Produtos Digitais,Pleno,F,Branca,2021-02-12,41,8441.982063117091
-2090,Tecnologia,Pleno,F,Parda,2020-06-27,18,8205.184682221954
+2090,Tecnologia,Pleno,F,Parda,2020-06-27,21,8205.184682221954
 2091,Produtos Digitais,Pleno,F,Parda,2017-09-23,31,7734.223025178352
-2092,Backoffice,Júnior,M,Branca,2017-06-11,16,2931.49069282615
+2092,Backoffice,Júnior,M,Branca,2017-06-11,21,2931.49069282615
 2093,Comercial,Pleno,M,Parda,2016-05-15,29,5407.158459753789
 2094,Risco & Compliance,Júnior,F,Branca,2023-06-27,31,3113.262573536271
 2095,Tecnologia,Pleno,F,Branca,2021-02-28,42,6420.6079627643685
@@ -2106,7 +2106,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 2105,Produtos Digitais,Sênior,F,Parda,2018-01-06,34,14852.871185103013
 2106,Tecnologia,Sênior,F,Parda,2023-06-21,43,10674.25015141225
 2107,Backoffice,Sênior,F,Parda,2022-08-02,36,9085.215617843276
-2108,Backoffice,Júnior,F,Parda,2017-12-20,17,3057.6082704436185
+2108,Backoffice,Júnior,F,Parda,2017-12-20,21,3057.6082704436185
 2109,Comercial,Líder,M,Branca,2019-04-06,35,13100.922748454925
 2110,Backoffice,Pleno,F,Parda,2016-11-09,25,5815.15127956288
 2111,Comercial,Júnior,M,Parda,2016-02-10,28,2936.165490709503
@@ -2119,7 +2119,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 2118,Risco & Compliance,Sênior,F,Amarela,2023-01-06,47,10266.144348743981
 2119,Comercial,Júnior,M,Parda,2022-11-19,26,3358.414738380133
 2120,Backoffice,Sênior,M,Branca,2022-08-05,32,9406.300814175447
-2121,Produtos Digitais,Sênior,M,Branca,2018-06-27,18,13063.118995225554
+2121,Produtos Digitais,Sênior,M,Branca,2018-06-27,21,13063.118995225554
 2122,Risco & Compliance,Sênior,F,Branca,2019-07-15,32,11738.774426438567
 2123,Backoffice,Júnior,M,Branca,2020-12-11,37,3200.21979633489
 2124,Tecnologia,Pleno,M,Parda,2024-09-24,38,6431.331756534249
@@ -2174,7 +2174,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 2173,Comercial,Pleno,F,Branca,2015-05-24,41,6882.716032965536
 2174,Backoffice,Júnior,M,Branca,2024-11-15,29,2638.4896388145175
 2175,Comercial,Pleno,F,Branca,2021-08-21,32,5948.76549764084
-2176,Produtos Digitais,Sênior,M,Parda,2021-10-22,19,12908.40709012998
+2176,Produtos Digitais,Sênior,M,Parda,2021-10-22,21,12908.40709012998
 2177,Comercial,Júnior,Outro,Amarela,2015-05-19,44,2870.184643494872
 2178,Crédito,Líder,M,Branca,2021-01-19,27,19021.309861022015
 2179,Crédito,Pleno,F,Parda,2019-11-05,35,7410.08720525629
@@ -2287,7 +2287,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 2286,Comercial,Pleno,M,Parda,2022-08-24,38,6788.729673680116
 2287,Backoffice,Sênior,M,Branca,2022-08-20,32,8293.3182888209
 2288,Tecnologia,Sênior,F,Branca,2017-12-03,27,14229.630139595705
-2289,Tecnologia,Pleno,M,Parda,2015-10-25,20,6927.83645809052
+2289,Tecnologia,Pleno,M,Parda,2015-10-25,21,6927.83645809052
 2290,Comercial,Júnior,M,Branca,2015-02-11,32,2558.184762272177
 2291,Risco & Compliance,Júnior,M,Branca,2019-04-10,41,3234.469956153144
 2292,Tecnologia,Líder,F,Parda,2019-02-06,27,17956.708666989423
@@ -2464,14 +2464,14 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 2463,Crédito,Júnior,M,Parda,2024-11-22,39,3312.237010030663
 2464,Risco & Compliance,Pleno,F,Parda,2022-10-09,35,7092.57117720718
 2465,Crédito,Pleno,F,Parda,2017-12-16,26,7674.743095044438
-2466,Comercial,Júnior,F,Parda,2017-06-12,19,3344.5967759806654
+2466,Comercial,Júnior,F,Parda,2017-06-12,21,3344.5967759806654
 2467,Tecnologia,Líder,M,Parda,2017-03-05,31,17218.305263020273
 2468,Comercial,Pleno,M,Branca,2016-05-13,33,6712.636449716682
 2469,Tecnologia,Líder,M,Parda,2020-07-05,28,17858.725679184965
 2470,Risco & Compliance,Pleno,F,Branca,2021-01-18,34,6222.429177660891
 2471,Comercial,Pleno,M,Branca,2022-01-19,37,6408.160903316824
 2472,Backoffice,Sênior,F,Indígena,2021-10-18,38,8943.384569245924
-2473,Backoffice,Pleno,M,Amarela,2017-12-03,19,4935.572553592604
+2473,Backoffice,Pleno,M,Amarela,2017-12-03,21,4935.572553592604
 2474,Produtos Digitais,Pleno,M,Branca,2018-04-20,26,7792.89118671405
 2475,Risco & Compliance,Júnior,F,Branca,2021-10-23,32,3519.250944354766
 2476,Backoffice,Pleno,M,Branca,2018-06-29,37,5404.098898662002
@@ -2489,7 +2489,7 @@ employee_id,area,nivel,genero,raca,data_admissao,idade,salario_base_inicial
 2488,Backoffice,Pleno,M,Branca,2015-08-23,25,6178.530813543032
 2489,Risco & Compliance,Pleno,M,Branca,2017-04-05,30,6938.298252594777
 2490,Tecnologia,Sênior,M,Parda,2022-12-04,32,13369.024900946019
-2491,Tecnologia,Líder,F,Branca,2023-01-15,19,20503.93557809547
+2491,Tecnologia,Líder,F,Branca,2023-01-15,21,20503.93557809547
 2492,Comercial,Pleno,F,Branca,2017-01-25,32,6509.824293980331
 2493,Produtos Digitais,Júnior,F,Parda,2018-05-11,39,4271.352546875625
 2494,Tecnologia,Pleno,M,Parda,2016-05-04,37,7364.238447833828
