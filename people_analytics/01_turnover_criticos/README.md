@@ -1,91 +1,147 @@
 # People Analytics — Turnover Crítico em Instituição Financeira
-**Área: People Analytics | Setor Financeiro**
 
-## 🏦 Problema de Negócio
+**Área:** People Analytics  
+**Setor:** Financeiro
 
-Um banco nacional fictício (aproximadamente 2.500 colaboradores) enfrenta sinais claros de deterioração organizacional em áreas críticas — Comercial e Tecnologia. 
+---
+
+## Problema de Negócio
+
+Um banco nacional fictício (aproximadamente 2.500 colaboradores) apresenta sinais claros de deterioração organizacional em áreas críticas, principalmente **Comercial** e **Tecnologia**.
 
 Foram identificados:
 
-- Aumento consistente do turnover
-- Custo de reposição crescente e pressão sobre produtividade
-- Engajamento em queda, especialmente nos últimos 12 meses
+- Aumento consistente da rotatividade de colaboradores
+- Crescimento do custo de reposição e impacto na produtividade
+- Queda no engajamento, especialmente nos últimos 12 meses
 - Indícios de desigualdade em promoções entre grupos
-- Atraso na reposição de talentos estratégicos
+- Demora na reposição de talentos estratégicos
 
-Esses elementos impactam diretamente indicadores de negócio como aquisição de clientes, eficiência operacional, qualidade de entrega e risco de perda de conhecimento crítico.
+Esses fatores impactam diretamente indicadores de negócio, como:
 
-**Oportunidade estratégica:**
-Criar uma base analítica robusta (mesmo que simulada) para compreender drivers de saída, priorizar ações de retenção e estimar o impacto financeiro de cenários de decisão.
+- Aquisição de clientes
+- Eficiência operacional
+- Qualidade das entregas
+- Risco de perda de conhecimento crítico
+
+**Oportunidade estratégica**
+
+Criar uma base analítica robusta (simulada) para:
+
+- compreender os fatores que impulsionam desligamentos
+- priorizar ações de retenção
+- estimar o impacto financeiro de diferentes cenários de decisão
 
 ---
 
-## 🎯 Objetivos do Projeto
+## Objetivos do Projeto
 
-**Objetivo Principal**:
-Investigar e explicar os fatores que impulsionam o turnover em áreas críticas, além de estruturar um modelo de risco e recomendações executivas orientadas a impacto.
+### Objetivo Principal
 
-**Objetivos Secundários**:
+Investigar e explicar os fatores que impulsionam a saída de colaboradores em áreas críticas, além de estruturar um modelo de risco e recomendações executivas orientadas a impacto.
 
-- Construir base simulada realista, com problemas estruturais típicos de People Analytics
+### Objetivos Secundários
+
+- Construir uma base simulada realista com problemas típicos de People Analytics
 - Aplicar análise exploratória orientada a hipóteses
 - Conduzir testes de causalidade e significância estatística
-- Criar indicadores estratégicos e medir impacto financeiro
-- Desenvolver um modelo preditivo simples (baseline)
-- Gerar plano executivo de ações, com análise de ROI
-- Entregar documentação profissional e reprodutível
+- Criar indicadores estratégicos e estimar impacto financeiro
+- Desenvolver um modelo preditivo simples
+- Elaborar um plano executivo de ações com análise de retorno
+- Produzir documentação profissional e reprodutível
 
 ---
 
-## 🧠 Abordagem Analítica
+## Abordagem Analítica
 
-**1. Desenho do problema e hipóteses**
+### 1. Formulação do problema e hipóteses
 
-- Quais variáveis antecedem o desligamento?
-- Há injustiça ou enviesamento na gestão de talentos?
-- O custo de reposição é maior do que o esperado?
-- A queda de engajamento explica parte do aumento do turnover?
+Perguntas que orientam a análise:
 
-**2. Funil Analítico / Driver Tree**
-
-- Engagement → Performance → Promoção → Risco de Saída
-- Workload → Well‑being → Absenteísmo → Risco de Saída
-- Compa Ratio → Equidade → Retenção
-
-**3. Execução Técnica**
-
-- Python + Pandas + SciPy + Scikit-learn
-- Dataset 100% reproduzível (seed control)
-- Análises e gráficos orientados a decisão executiva
-- Documentação clara para GitHub
+- Quais variáveis antecedem o desligamento de colaboradores?
+- Existe algum tipo de viés na gestão de promoções e talentos?
+- O custo de reposição está acima do esperado?
+- A queda de engajamento contribui para o aumento da rotatividade?
 
 ---
 
-## 🗂 Estrutura do Repositório
+### 2. Estrutura Analítica
 
-01_turnover_criticos/
+Principais relações investigadas:
+
+Engajamento → Performance → Promoção → Risco de Saída  
+
+Carga de Trabalho → Bem-estar → Absenteísmo → Risco de Saída  
+
+Compa Ratio → Equidade Salarial → Retenção
+
+---
+
+### 3. Execução Técnica
+
+Ferramentas utilizadas:
+
+- Python
+- Pandas
+- SciPy
+- Scikit-learn
+
+Características do projeto:
+
+- Base de dados **100% reproduzível**
+- Controle de aleatoriedade (seed)
+- Análises e visualizações orientadas à tomada de decisão
+- Documentação estruturada para uso em portfólio e reprodutibilidade
+
+---
+
+## Estrutura do Repositório
+
+```
+01_turnover_critico/
 │
 ├── data/
-│   ├── raw/          # Dados simulados brutos (gerados por código)
-│   ├── processed/    # Dados tratados e enriquecidos para análise
+│   ├── raw/                 # Dados simulados brutos gerados por código
+│   └── processed/           # Dados tratados para análise
 │
 ├── notebooks/
-│   ├── 01_data_generation.ipynb
-│   ├── 02_data_quality.ipynb
-│   ├── 03_eda_strategica.ipynb
+│   ├── 01_geracao_dados.ipynb
+│   ├── 02_qualidade_dados.ipynb
+│   ├── 03_analise_exploratoria.ipynb
 │   ├── 04_testes_hipoteses.ipynb
 │   ├── 05_indicadores_financeiros.ipynb
 │   ├── 06_modelo_preditivo.ipynb
 │   └── 07_recomendacoes_executivas.ipynb
 │
 ├── outputs/
-│   ├── reports/      # Gráficos, tabelas, dashboards estáticos
-│   └── models/       # Modelos e artefatos (picles se necessário)
+│   ├── relatorios/          # Gráficos, tabelas e resultados das análises
+│   └── modelos/             # Artefatos de modelos treinados
 │
 ├── src/
-│   ├── data/         # Funções para gerar/tratar dados
-│   ├── analysis/     # Funções de EDA, testes e indicadores
-│   ├── modeling/     # Scripts de modelagem
-│   └── utils/        # Helper functions, configs
+│   ├── dados/               # Funções para geração e tratamento de dados
+│   ├── analise/             # Funções de análise exploratória e testes
+│   ├── modelagem/           # Código relacionado aos modelos preditivos
+│   └── utils/               # Funções auxiliares e configurações
 │
 └── README.md
+```
+
+---
+
+## Resultados Esperados
+
+- Identificação dos principais fatores associados à rotatividade
+- Quantificação do impacto financeiro do turnover
+- Modelo simples de risco de saída de colaboradores
+- Recomendações estratégicas para retenção de talentos
+
+---
+
+## Aplicação do Projeto
+
+Este projeto simula um caso real de **People Analytics aplicado ao setor financeiro**, demonstrando como análise de dados pode apoiar decisões estratégicas relacionadas a:
+
+- gestão de talentos
+- retenção de profissionais críticos
+- eficiência organizacional
+- sustentabilidade do capital humano
