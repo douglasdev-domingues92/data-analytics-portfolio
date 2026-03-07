@@ -105,8 +105,8 @@ Características do projeto:
 │   └── processed/           # Dados tratados para análise
 │
 ├── notebooks/
-│   ├── 01_geracao_dados.ipynb
-│   ├── 02_qualidade_dados.ipynb
+│   ├── 01_data_generation.ipynb
+│   ├── 02_qualidade_tratamento.ipynb
 │   ├── 03_analise_exploratoria.ipynb
 │   ├── 04_testes_hipoteses.ipynb
 │   ├── 05_indicadores_financeiros.ipynb
@@ -114,14 +114,14 @@ Características do projeto:
 │   └── 07_recomendacoes_executivas.ipynb
 │
 ├── outputs/
-│   ├── relatorios/          # Gráficos, tabelas e resultados das análises
-│   └── modelos/             # Artefatos de modelos treinados
+│   ├── reports/          # Gráficos, tabelas e resultados das análises
+│   └── models/           # Artefatos de modelos treinados
 │
 ├── src/
-│   ├── dados/               # Funções para geração e tratamento de dados
-│   ├── analise/             # Funções de análise exploratória e testes
-│   ├── modelagem/           # Código relacionado aos modelos preditivos
-│   └── utils/               # Funções auxiliares e configurações
+│   ├── data/               # Funções para geração e tratamento de dados
+│   ├── analysis/           # Funções de análise exploratória e testes
+│   ├── modeling/           # Código relacionado aos modelos preditivos
+│   └── utils/              # Funções auxiliares e configurações
 │
 └── README.md
 ```
