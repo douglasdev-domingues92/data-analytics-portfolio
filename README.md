@@ -1,65 +1,120 @@
-# Portfólio de Análise de Dados Orientado à Tomada de Decisão
+# Análise de Fatores Associados ao Turnover de Funcionários
 
-Este repositório reúne projetos estratégicos desenvolvidos com foco em **análise de dados aplicada a problemas reais de negócio**, priorizando:
+Projeto de People Analytics com foco em investigação de fatores associados ao turnover e identificação de grupos com maior risco de desligamento.
 
-- Impacto mensurável  
-- Priorização baseada em risco e retorno  
-- Comunicação clara para áreas gerenciais e executivas  
-- Estrutura reprodutível (raw → processed → análise → insight)  
-
-O objetivo é demonstrar atuação como **Analista de Dados orientado à decisão**, com profundidade técnica e visão estratégica.
+O objetivo é transformar dados organizacionais em insights acionáveis para apoiar estratégias de retenção, priorização de ações de RH e tomada de decisão orientada por dados.
 
 ---
 
-## Domínios de Atuação
+## Objetivo do Projeto
 
-### 📊 People Analytics
+Responder à seguinte pergunta de negócio:
 
-#### 1. Sistema de Priorização de Turnover  
-Sistema analítico para estimar risco de desligamento, identificar principais fatores associados e apoiar a priorização de ações preventivas de retenção com base em risco e impacto financeiro.
+> Quais fatores parecem mais associados ao turnover e quais grupos deveriam ser priorizados em estratégias de retenção?
 
-#### 2. Análise de Engajamento e Clima Organizacional (NLP)  
-Análise de dados textuais de pesquisas e feedbacks internos, com identificação de padrões de engajamento, temas críticos e insights para gestão de pessoas.
-
----
-
-### 📈 Marketing Analytics
-
-#### 3. Análise de Funil e Conversão  
-Avaliação de performance ao longo do funil de aquisição, identificação de gargalos e estimativa de impacto potencial de melhorias nas taxas de conversão.
-
-#### 4. Avaliação de Performance de Campanhas  
-Análise de métricas de campanhas (CAC, ROI, conversão), com foco em alocação eficiente de orçamento e priorização de canais.
+A análise busca identificar padrões relacionados a:
+- satisfação e engajamento;
+- carga de trabalho;
+- remuneração;
+- crescimento profissional;
+- estrutura organizacional.
 
 ---
 
-### 💼 Sales & Market Intelligence
+## Contexto de Negócio
 
-#### 5. Análise de Pipeline Comercial  
-Monitoramento e segmentação de oportunidades comerciais, identificação de gargalos e suporte à priorização de esforços da equipe de vendas.
+Altos níveis de turnover podem gerar impactos relevantes para empresas, como:
+- aumento de custos operacionais;
+- perda de conhecimento interno;
+- redução de produtividade;
+- sobrecarga de equipes;
+- aumento do tempo de reposição de vagas.
 
-#### 6. Estudo de Demanda e Market Share  
-Análise exploratória e comparativa de mercado para identificação de oportunidades estratégicas, variações de demanda e posicionamento competitivo.
-
----
-
-## Tecnologias e Ferramentas
-
-- **Linguagens:** Python, SQL  
-- **Análise de Dados:** Pandas, NumPy  
-- **Modelagem e Machine Learning:** Scikit-learn, PySpark  
-- **Visualização:** Power BI, Matplotlib, Seaborn  
-- **NLP:** TF-IDF e técnicas de processamento de texto  
-- **Versionamento:** Git  
+Neste contexto, o projeto investiga possíveis fatores associados ao desligamento de funcionários, com foco em gerar evidências analíticas para apoio à retenção.
 
 ---
 
-## Estrutura dos Projetos
+## Dataset
 
-Cada projeto está organizado de forma padronizada, contendo:
+- IBM HR Analytics Attrition Dataset
+- Total de funcionários analisados: 1.470
+- Taxa geral de turnover identificada: 16,12%
 
-- Análise exploratória orientada a hipóteses de negócio  
-- Tratamento e preparação de dados  
-- Modelagem ou análise estatística (quando aplicável)  
-- Avaliação com métricas técnicas e de negócio  
-- Síntese executiva com insights acionáveis  
+---
+
+## Principais Hipóteses Investigadas
+
+- Funcionários com horas extras apresentam maior incidência de turnover.
+- Funcionários com menor renda mensal apresentam maior taxa de desligamento.
+- Áreas com maior pressão operacional podem apresentar maior rotatividade.
+- Crescimento profissional e promoções podem influenciar retenção.
+- Indicadores de satisfação e equilíbrio vida-trabalho podem estar associados ao turnover.
+
+---
+
+## Tecnologias Utilizadas
+
+- Python
+- SQL
+- DuckDB
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+---
+
+## Estrutura do Projeto
+
+```text
+data/
+  raw/
+  processed/
+
+notebooks/
+  01_data_understanding.ipynb
+  02_sql_eda.ipynb
+  03_python_analysis.ipynb
+  04_modeling.ipynb
+
+src/
+
+README.md
+```
+
+---
+
+## Etapas da Análise
+
+### 1. Entendimento e preparação dos dados
+- tradução e padronização de variáveis;
+- remoção de colunas sem valor analítico;
+- análise estrutural do dataset.
+
+### 2. Análise exploratória
+- turnover por departamento;
+- impacto de horas extras;
+- turnover por faixa salarial;
+- análise de promoções e tempo de empresa;
+- segmentações organizacionais.
+
+### 3. Modelagem preditiva
+- construção de baseline;
+- modelos interpretáveis;
+- análise de variáveis relevantes.
+
+### 4. Comunicação de insights
+- interpretação executiva;
+- recomendações acionáveis;
+- limitações da análise.
+
+---
+
+## Principais Aprendizados Esperados
+
+- Construção de análises orientadas a negócio;
+- Investigação de fatores organizacionais associados ao turnover;
+- Uso combinado de SQL e Python em análises corporativas;
+- Desenvolvimento de storytelling analítico;
+- Transformação de hipóteses em evidências quantitativas.
